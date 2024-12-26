@@ -1,7 +1,15 @@
-
-ssmmessages:CreateControlChannel
-ssmmessages:CreateDataChannel
-ssmmessages:OpenControlChannel
-ssmmessages:OpenDataChannel
-
-arn:aws:iam:policy/CloudWatchLogsFullAccess
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ssmmessages:CreateControlChannel",
+          "ssmmessages:CreateDataChannel",
+          "ssmmessages:OpenControlChannel",
+          "ssmmessages:OpenDataChannel"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
