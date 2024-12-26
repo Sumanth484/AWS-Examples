@@ -1,6 +1,11 @@
+## Create cluster by updating template.yaml
+
+```sh
+sh ./deploy
+```
 ## Create Log Group
 
-aws logs create-log-group --log-group-name ecs-ec2-fargate
+aws logs create-log-group --log-group-name ecs-fargate
 
 ## Create our Task Def
 
@@ -26,7 +31,7 @@ sudo dpkg -i session-manager-plugin.deb
 ```sh
 aws ecs execute-command \
 --cluster ecs-fargate-basicECSCluster \
---task 33f675c3d6234eb98d1079cc1269e81e \
+--task 050667c509af4b52adaf67a5f2b66f08 \
 --container app \
 --interactive \
 --command "/bin/sh"
