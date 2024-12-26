@@ -1,5 +1,5 @@
 # FROM python:3.13.0a6-slim-bookworm
-FROM 982383527471.dkr.ecr.ca-central-1.amazonaws.com/python:3.13.0a6-slim-bookworm
+FROM 590184072742.dkr.ecr.us-east-1.amazonaws.com/python:3.13.0a6-slim-bookworm
 
 # Added in a later video. 
 # You can omit this if you are building for the first.
