@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters:
   ASGArn:
     Type: String
-    Default: arn:aws:autoscaling:ca-central-1:982383527471:autoScalingGroup:f21fdc96-3cf1-404f-bb70-4f46ab7ee33d:autoScalingGroupName/ecs-ec2-basic-ASG-07tvDNmWt3Xt
+    Default: arn:aws:autoscaling:us-east-1:590184072742:autoScalingGroup:de1f3a7c-6bff-4291-993b-34c1f9fa49af:autoScalingGroupName/ecs-ec2-basic-ASG-rhkCdgj5eOQ2
   ClusterStack:
     Type: String
     Default: ecs-ec2-basic

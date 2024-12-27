@@ -3,7 +3,18 @@
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/retrieve-ecs-optimized_AMI.html
 
 ```sh
-aws ssm get-parameters --names /aws/service/ecs/optimized-ami/amazon-linux-2023/recommended --region ca-central-1
+aws ssm get-parameters --names /aws/service/ecs/optimized-ami/amazon-linux-2023/recommended --region us-east-1
+```
+## Create cluster
+
+```sh
+./deploy
+```
+
+## Create capacity provider and association
+
+```sh
+./deploy-capacity-provider
 ```
 
 > Swap the region for your usecase
